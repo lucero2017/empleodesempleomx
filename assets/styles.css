@@ -1,0 +1,84 @@
+/* === Paleta México: Verde bandera, blanco y rojo === */
+:root {
+    --verde: #006341;
+    --rojo: #e10600;
+    --blanco: #ffffff;
+    --gris-claro: #f5f5f5;
+    --texto-principal: #333333;
+    --fondo: #ffffff;
+}
+
+/* === Fondo general === */
+body {
+    background-color: var(--gris-claro);
+    color: var(--texto-principal);
+    font-family: 'Arial', sans-serif;
+}
+
+/* === Título principal === */
+h1 {
+    color: var(--verde);
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* === Encabezados === */
+h2, h3, h4 {
+    color: var(--rojo);
+    font-weight: bold;
+}
+
+/* === Botones === */
+button, .stButton>button {
+    background-color: var(--verde);
+    color: var(--blanco);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .stButton>button:hover {
+    background-color: var(--rojo);
+}
+
+/* === Metrics === */
+div[data-testid="metric-container"] {
+    background-color: var(--verde);
+    color: var(--blanco);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+div[data-testid="metric-container"] span {
+    color: var(--blanco) !important;
+}
+
+/* === Tablas === */
+.css-1d391kg {
+    border: 1px solid var(--verde);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: var(--verde);
+    color: var(--blanco);
+}
+
+/* === Download button === */
+a[download] {
+    background-color: var(--rojo);
+    color: var(--blanco);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a[download]:hover {
+    background-color: var(--verde);
+}
