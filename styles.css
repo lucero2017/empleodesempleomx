@@ -1,0 +1,70 @@
+<style>
+/* Fondo general blanco */
+body {
+    background-color: #ffffff;
+}
+
+/* Contenedor principal estilo Streamlit */
+.reportview-container {
+    background-color: #ffffff;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Título dentro de un recuadro con forma de onda color vino */
+.title-box {
+    background: linear-gradient(135deg, #800020 30%, #990033 100%);
+    border-radius: 50px 50px 0 50px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title-box h1 {
+    color: white;
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Botones de Streamlit */
+button {
+    background-color: #800020;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #990033;
+}
+
+/* Ajustes a métricas y dataframe */
+.css-1d391kg, .css-1cpxqw2 {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Ajustes de tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+/* Estilo para gráficas */
+.plot-container {
+    border: 2px solid #800020;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 30px;
+    background: #fdfdfd;
+}
+
+</style>
